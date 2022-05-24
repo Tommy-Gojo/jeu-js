@@ -1,0 +1,23 @@
+a, p{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    text-decoration:overline;
+}
+#magicien:hover{
+    font-size: 2rem;
+    transition-duration: 3s, 1s;
+    color: rgb(0, 255, 21);
+    cursor: cell;
+}
+#guerrier:hover{
+    font-size: 2rem;
+    transition-duration: 3s, 1s;
+    color: rgb(114, 48, 4);
+    cursor: grabbing;
+}
